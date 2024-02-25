@@ -25,10 +25,9 @@ const Menu = (props) => {
                 </a>
             </li>
             <li className={props.liStyles}>
-                <Link href='https://milagalko1@gmail.com' target='_blank' rel='noreferrer'>
+                <a href='https://milagalko1@gmail.com' target='_blank' rel='noreferrer'>
                     <HiOutlineMail size={iconSize}/>
-                </Link>
-
+                </a>
             </li>
             <li className={props.liStyles}>
                 <a href='tel:+380983222527' target='_blank' rel='noreferrer'>
