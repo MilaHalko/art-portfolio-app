@@ -8,8 +8,6 @@ const Navbar = () => {
 
     return (
         <div className='fixed w-full h-[100px] flex justify-between items-center px-4'>
-            {/*TODO: Background image*/}
-            {/*<div style="background-image: url('%PUBLIC_URL%/images/logos/favicon.ico');">*/}
             <div>
                 <h1 className='font-bold text-3xl'>MILA HALKO</h1>
                 <h2 className='font-thin text-sm'>milka_deluxe</h2>
