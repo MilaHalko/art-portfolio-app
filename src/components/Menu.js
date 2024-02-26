@@ -1,15 +1,22 @@
 import React from 'react';
 import {FaGithub, FaInstagram, FaPhone, FaTelegram} from "react-icons/fa";
 import {HiOutlineMail} from "react-icons/hi";
-import {Link} from "@react-email/link";
+import {NavLink, useNavigate} from "react-router-dom";
 
 const Menu = (props) => {
     const iconSize = 23;
+    const ActivePageStyles = ({isActive}) => (isActive ? 'text-[#DB2777] font-bold underline' : '');
+
     return (
         <ul className={props.classes}>
-            <li className={props.liStyles}>Portfolio</li>
-            <li className={props.liStyles}>About me</li>
-            <li>
+            <li className={props.liStyles}>
+                <NavLink to={`/`} className={ActivePageStyles}>Portfolio</NavLink>
+            </li>
+            <li className={props.liStyles}>
+                <NavLink to={`/aboutMe`} className={ActivePageStyles}>About me</NavLink>
+            </li>
+            <div className='flex flex-row'>
+            <li className={props.liStyles}>
                 <a href='https://t.me/milka_deluxe' target='_blank' rel='noreferrer'>
                     <FaTelegram size={iconSize}/>
                 </a>
@@ -34,6 +41,7 @@ const Menu = (props) => {
                     <FaPhone size={iconSize}/>
                 </a>
             </li>
+            </div>
         </ul>
     )
         ;
