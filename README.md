@@ -1,2 +1,2 @@
 [🔥 Check Website 🔥](https://art-portfolio-9ddff.web.app/)
-!(About Me Page)[./images/Art-Portfolio-by-milka_deluxe (1).png]
+!(About Me Page)[/images/Art-Portfolio-by-milka_deluxe (1).png]
