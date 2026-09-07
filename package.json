@@ -1,7 +1,6 @@
 {
   "name": "art-portfolio-app",
   "version": "0.1.0",
-  "homepage": "https://MilaHalko.github.io/art-portfolio-app/public",
   "private": true,
   "engines": {
     "node": "24.x"
